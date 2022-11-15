@@ -1,6 +1,6 @@
 {
   "name": "cosmos-over-every-tool",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/cosmos-over-every-tool.js",
   "typings": "dist/src/cosmos-over-every-tool.d.ts",
