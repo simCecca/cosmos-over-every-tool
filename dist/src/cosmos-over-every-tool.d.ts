@@ -14,12 +14,14 @@ declare type CosmosGraph = GraphConfigInterface<{
     source: string;
     target: string;
 }>;
-export interface CAProps {
+export interface CAProps extends CosmosLayoutProps {
     canvas: {
         width: number;
         height: number;
     };
     graph: Graph;
+}
+export interface CosmosLayoutProps {
     cosmos?: CosmosGraph;
     options?: {
         maxExecutionTime: number;
